@@ -2279,6 +2279,9 @@ fieldset[disabled] .Button.Danger:active {
 .Reactions .ReactThumbsUp2:before {
   content: "\f088";
 }
+.UserReactionWrap {
+  display: none;
+}
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
