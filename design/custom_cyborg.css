@@ -2269,7 +2269,7 @@ fieldset[disabled] .Button.Danger:active {
   content: "\f088";
 }
 .UserReactionWrap {
-  display: none;
+  visibility: hidden;
 }
 .fade {
   opacity: 0;
