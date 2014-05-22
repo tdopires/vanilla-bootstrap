@@ -1923,7 +1923,9 @@ fieldset[disabled] .Button.Danger:active {
 .Sprite16,
 .SpFlyoutHandle,
 .InformSprite,
-.Bookmark:before {
+.Bookmark:before,
+.Reactions .ReactThumbsUp,
+.Reactions .ReactThumbsUp2 {
   display: inline-block;
   min-width: 1em;
   font-family: FontAwesome;
@@ -2244,6 +2246,28 @@ fieldset[disabled] .Button.Danger:active {
 }
 .FilterMenu .Sprite {
   margin-right: 6px;
+}
+.Reactions .ReactButton {
+  font-size: 1.25em;
+  height: 2em;
+  line-height: 2em;
+}
+.Reactions .ReactButton .Count {
+  font-size: 0.8em;
+  vertical-align: middle;
+}
+.Reactions .ReactButton .ReactSprite {
+  background: none;
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.4em;
+  vertical-align: top;
+}
+.Reactions .ReactThumbsUp:before {
+  content: "\f087";
+}
+.Reactions .ReactThumbsUp2:before {
+  content: "\f088";
 }
 .fade {
   opacity: 0;
@@ -3891,18 +3915,6 @@ button.token-input-delete-token {
 }
 .Dismissable .InformMessage {
   padding-right: 34px;
-}
-.Reactions .ReactThumbsUp,
-.Reactions .ReactThumbsUp2 {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 .ProfilePhoto,
 .ProfilePhotoMedium {

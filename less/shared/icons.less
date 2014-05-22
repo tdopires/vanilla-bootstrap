@@ -477,3 +477,36 @@
 .FilterMenu .Sprite {
   margin-right: 6px;
 }
+
+// YAGA application fixes
+
+.Reactions {
+  .ReactButton {
+    font-size: 1.25em;
+    height: 2em;
+    line-height: 2em;
+
+    .Count {
+      font-size: 0.8em;
+      vertical-align: middle;
+    }
+
+    .ReactSprite {
+      background: none;
+      font-size: 1.5em;
+      font-weight: 800;
+      line-height: 1.4em;
+      vertical-align: top;
+    }
+
+  }
+
+  .ReactThumbsUp {
+    &:extend(.InformSprite);
+    &:before { content: @fa-var-thumbs-o-up; }
+  }
+  .ReactThumbsUp2 {
+    &:extend(.InformSprite);
+    &:before { content: @fa-var-thumbs-o-down; }
+  }
+}
