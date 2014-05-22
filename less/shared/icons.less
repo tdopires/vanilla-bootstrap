@@ -23,7 +23,8 @@
 .Sprite,
 .Sprite16,
 .SpFlyoutHandle,
-.InformSprite {
+.InformSprite,
+.ReactSprite {
   display: inline-block;
   min-width: 1em;
   font-family: FontAwesome;
@@ -502,11 +503,9 @@
   }
 
   .ReactThumbsUp {
-    &:extend(.InformSprite);
     &:before { content: @fa-var-thumbs-o-up; }
   }
   .ReactThumbsUp2 {
-    &:extend(.InformSprite);
     &:before { content: @fa-var-thumbs-o-down; }
   }
 }

@@ -1922,9 +1922,8 @@ fieldset[disabled] .Button.Danger:active {
 .Sprite16,
 .SpFlyoutHandle,
 .InformSprite,
-.Bookmark:before,
-.Reactions .ReactThumbsUp,
-.Reactions .ReactThumbsUp2 {
+.ReactSprite,
+.Bookmark:before {
   display: inline-block;
   min-width: 1em;
   font-family: FontAwesome;
@@ -3945,18 +3944,6 @@ button.token-input-delete-token {
 }
 .Dismissable .InformMessage {
   padding-right: 34px;
-}
-.Reactions .ReactThumbsUp,
-.Reactions .ReactThumbsUp2 {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 .ProfilePhoto,
 .ProfilePhotoMedium {
