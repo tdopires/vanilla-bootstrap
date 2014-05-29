@@ -47,7 +47,7 @@
               {signinout_link}
             </ul>
           {else}
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" style="display: none;">
               <li>{link path="entry/register" text="Register" target="current"}</li>
               <li>{link path="signin" text="Sign In" target="current"}</li>
             </ul>
@@ -74,7 +74,7 @@
       </div>
     </section>
 
-    <footer class="page-footer sticky-footer">
+    <footer class="page-footer sticky-footer" style="display: none;">
       <div class="container">
         <div class="clearfix">
           <p class="pull-left">{t c="Copyright"} &copy; {$smarty.now|date_format:"%Y"} <a href="{link path="home"}">{logo}</a></p>
